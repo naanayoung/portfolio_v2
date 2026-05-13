@@ -148,7 +148,7 @@
   .proj-card-metric {
     display: inline-block; font-size: 12px; color: #1a1a1a;
     background: #f4f4f4; padding: 4px 10px; border-radius: 4px;
-    font-weight: 500;
+    font-weight: 500, margin-bottom: 12px;
   }
   .proj-card-arrow { float: right; color: #bbb; font-size: 14px; }
 
@@ -204,12 +204,9 @@
       </p>
       <span class="proj-card-metric">p95 2.06s → 33.3ms · 메시지 손실 0</span><br>
       <div class="stack-items">
-        <span class="badge">Kafka</span><span class="badge">AWS EC2</span>
-        <span class="badge">Docker Compose</span><span class="badge">AWS EKS</span>
-        <span class="badge">k6</span><span class="badge">Grafana</span>
-        <span class="badge">Prometheus</span><span class="badge">VictoriaMetrics</span>
-        <span class="badge">Django</span><span class="badge">MySQL</span>
-        <span class="badge">GItHub Actions</span><span class="badge">Kuberetes</span>
+        <span class="badge">Kafka</span><span class="badge">AWS EKS</span>
+        <span class="badge">Grafana</span><span class="badge">Prometheus</span>
+        <span class="badge">GItHub Actions</span><span class="badge">k6</span>
       </div>
     </a>
 
@@ -222,6 +219,11 @@
         서버리스 비동기 파이프라인을 설계하고 NAT Gateway와 VPC Endpoint 두 구성의 비용 구조를 직접 비교. AWS CDK로 IaC 구현.
       </p>
       <span class="proj-card-metric">VPC Endpoint 전환 시 36%+ 비용 절감</span>
+      <div class="stack-items">
+        <span class="badge">AWS Lambda</span><span class="badge">API Gateway</span>
+        <span class="badge">SQS</span><span class="badge">DynamoDB</span>
+        <span class="badge">VPC</span><span class="badge">AWS CDK</span>
+      </div>
     </a>
   </div>
 </div>
