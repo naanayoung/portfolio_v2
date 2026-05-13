@@ -164,7 +164,6 @@
 
 <!-- ══════════════ NAV ══════════════ -->
 <nav class="nav">
-  <div class="nav-brand">이나영<span>Cloud · DevOps</span></div>
   <div class="nav-links">
     <a href="#about">About</a>
     <a href="#stack">Stack</a>
@@ -182,78 +181,9 @@
     요구 조건 사이의 트레이드오프를 고려해 아키텍처를 설계하고, 의사결정의 근거를 문서로 남깁니다.<br>
     동일 조건에서의 비교 실험을 통해 개선 효과를 수치로 검증하는 것을 원칙으로 합니다.
   </div>
-  <div class="hero-highlights">
-    <div class="hero-hl">
-      <div class="hero-hl-num">98%↓</div>
-      <div class="hero-hl-label">p95 응답 지연 단축<br>(2.06s → 33.3ms)</div>
-    </div>
-    <div class="hero-hl">
-      <div class="hero-hl-num">36%+</div>
-      <div class="hero-hl-label">인프라 비용 절감<br>(VPC Endpoint 전환)</div>
-    </div>
-    <div class="hero-hl">
-      <div class="hero-hl-num">End-to-end</div>
-      <div class="hero-hl-label">EKS 배포 + CI/CD<br>파이프라인 구축</div>
-    </div>
-  </div>
   <div class="cover-links">
     <a href="https://github.com/naanayoung">GitHub</a>
     <a href="mailto:enayoung0802@gmail.com">enayoung0802@gmail.com</a>
-  </div>
-</div>
-
-
-<!-- ══════════════ TECH STACK ══════════════ -->
-<div class="section" id="stack">
-  <p class="section-idx">Tech Stack</p>
-  <p class="section-title">기술 스택</p>
-  <p class="section-sub">프로젝트에서 직접 사용한 기술 중심으로 정리</p>
-
-  <div class="stack-grid">
-    <div class="stack-row">
-      <p class="stack-cat">Cloud / Infrastructure</p>
-      <div class="stack-items">
-        <span class="badge">AWS EC2</span><span class="badge">Lambda</span>
-        <span class="badge">API Gateway</span><span class="badge">VPC</span>
-        <span class="badge">SQS</span><span class="badge">SNS</span>
-        <span class="badge">DynamoDB</span>
-      </div>
-    </div>
-    <div class="stack-row">
-      <p class="stack-cat">Container / Orchestration</p>
-      <div class="stack-items">
-        <span class="badge">Docker</span><span class="badge">Docker Compose</span>
-        <span class="badge">Kubernetes</span><span class="badge">EKS</span>
-        <span class="badge">Strimzi</span>
-      </div>
-    </div>
-    <div class="stack-row">
-      <p class="stack-cat">Observability</p>
-      <div class="stack-items">
-        <span class="badge">Prometheus</span><span class="badge">VictoriaMetrics</span>
-        <span class="badge">Grafana</span><span class="badge">CloudWatch</span>
-      </div>
-    </div>
-    <div class="stack-row">
-      <p class="stack-cat">IaC / CI·CD</p>
-      <div class="stack-items">
-        <span class="badge">AWS CDK</span><span class="badge">eksctl</span>
-        <span class="badge">GitHub Actions</span>
-      </div>
-    </div>
-    <div class="stack-row">
-      <p class="stack-cat">Backend / Data</p>
-      <div class="stack-items">
-        <span class="badge">Kafka</span><span class="badge">Django</span>
-        <span class="badge">MySQL</span>
-      </div>
-    </div>
-    <div class="stack-row">
-      <p class="stack-cat">Testing</p>
-      <div class="stack-items">
-        <span class="badge">k6</span>
-      </div>
-    </div>
   </div>
 </div>
 
@@ -266,18 +196,24 @@
   <div class="proj-cards">
     <a href="#project-01" class="proj-card">
       <div class="proj-card-top">
-        <span class="proj-card-title">01. Kafka 기반 분산 시스템 운영·관측·부하 검증<span class="proj-card-arrow">→</span></span>
+        <span class="proj-card-title">01. Kafka 기반 분산 시스템 운영·관측·부하 검증<span class="proj-card-arrow"> →</span></span>
         <span class="proj-card-period">2025.05 – 2025.06</span>
       </div>
       <p class="proj-card-desc">
         지표 기반으로 컨슈머·파티션 배치 불균형을 발견하고 분산 배치로 응답 지연을 단축. 브로커 장애 실험과 EKS 배포·CI/CD까지 확장.
       </p>
       <span class="proj-card-metric">p95 2.06s → 33.3ms · 메시지 손실 0</span>
+      <div class="stack-items">
+        <span class="badge">AWS EC2</span><span class="badge">Lambda</span>
+        <span class="badge">API Gateway</span><span class="badge">VPC</span>
+        <span class="badge">SQS</span><span class="badge">SNS</span>
+        <span class="badge">DynamoDB</span>
+      </div>
     </a>
 
     <a href="#project-02" class="proj-card">
       <div class="proj-card-top">
-        <span class="proj-card-title">02. Serverless VPC 네트워크 설계와 비용 구조 비교 분석<span class="proj-card-arrow">→</span></span>
+        <span class="proj-card-title">02. Serverless VPC 네트워크 설계와 비용 구조 비교 분석<span class="proj-card-arrow"> →</span></span>
         <span class="proj-card-period">2025.03</span>
       </div>
       <p class="proj-card-desc">
